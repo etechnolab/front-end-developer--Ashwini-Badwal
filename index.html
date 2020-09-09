@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+    <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    <link rel='stylesheet' href='ashwini_stylesheet.css' type='text/css' />
+    <script src="ashwini_script.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+<header>
+ <h1>Assignment /Task page</h1>
+</header>
+<article>
+   <p> 
+             <center><strong>Note: Use tab keys to move from one input field to the next.
+              <br><h4> *Required</h4></strong>
+    <form name='registration' onSubmit="return formValidation();">
+      <ul>
+        <li><label for="name" class="required-field",>Name:</label></li>
+        <li><input type="text" name="name" placeholder="Your answer" size="45" /></li>
+        
+        <li><label for="email" class="required-field">Email:</label></li>
+        <li><input type="text" name="email" placeholder="Your answer" size="45" /></li>
+
+        <li><label for="mobile" class="required-field">Mobile No:</label></li>
+        <li><input type="text" name="mobile" placeholder="Your answer" size="45" /></li>
+        
+        <li><label for="address" class="required-field">Address:</label></li>
+        <li><input type="text" name="address" placeholder="Your answer" size="45"/ ></li>
+        
+        
+        
+        <li><label id="gender" > Gender:</label></li>
+        <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+        <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+        
+        <li><label for="desc" >Message:</label></li>
+        <li><textarea name="desc" placeholder="(optional)" id="desc"></textarea></li>
+        <li><input type="submit" name="submit"  value="Submit" id="popUpYes"/></li>
+      </ul>
+
+    </form>
+  </center>
+  </p>
+</article>
+</div>
+<br></br>
+    <footer> </footer>
+  </body>
+
+</html>
